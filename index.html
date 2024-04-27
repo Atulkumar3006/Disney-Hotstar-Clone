@@ -8,23 +8,34 @@
     <link rel="icon" href="logo.png" type="image/png">
     <!--Add the CSS-->
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
-    <nav class="navbar">
-        <img src="disney-hotstar-logo-dark.svg" class="brand-logo" alt="">
-        <ul class="nav-links">
-            <li class="nav-items"><a href="#">TV</a></li>
-            <li class="nav-items"><a href="#">movies</a></li>
-            <li class="nav-items"><a href="#">sports</a></li>
-            <li class="nav-items"><a href="#">Disney+</a></li>
-            <li><a href=""><img src="kids.svg" class="kidsicon" alt=""></a></li>
-        </ul>
-        <div class="right-container">
-            <input type="text" class="search-box" placeholder="search">
-            <button class="sub-btn">subscribe</button>
-            <a href="#" class="login-link">login</a>
+    <header>
+        <div class="logo">
+            <img src="disney_plus_hotstar_logo_1583901149861.webp" alt="Disney+ Hotstar Logo">
         </div>
-    </nav>
+        <nav class="navbar">
+            <img src="disney-hotstar-logo-dark.svg" class="brand-logo" alt="">
+            <ul class="nav-links">
+                <li class="nav-items"><a href="/TV">TV</a></li>
+                <li class="nav-items"><a href="/movies">movies</a></li>
+                <li class="nav-items"><a href="/sports">sports</a></li>
+                <li class="nav-items"><a href="/Disney">Disney+</a></li>
+                <li><a href=""><img src="kids.svg" class="kidsicon" alt=""></a></li>
+            </ul>
+            <div class="right-container">
+                <input type="text" class="search-box" placeholder="search">
+                <button class="sub-btn">subscribe</button>
+                <a href="login.html" class="login-link">login</a>
+            </div>
+        </nav>
+        <main>
+           <section class="hero">
+            <h1>Welcome to Disney+ Hotstar</h1>
+            <p>Stream your favorite TV,movie,sports,Disney+</p>
+            <a href="/GetStarted" class="cta-button">Get Started</a>
+           </section>
+        </main>
+    </header>
     <div class="carousel-container">
         <div class="carousel">
             <div class="slider">
@@ -36,6 +47,7 @@
             </div>
         </div>
     </div>
+    
     <div class="video-card-container">
         <div class="video-card">
             <img src="disney.png" class="video-card-image" alt="">
